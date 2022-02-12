@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    background-image: url("https://i.imgur.com/SxcA7zi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Nav Bar*/
+
+nav {
+    display: flex;
+    justify-content: end;
+    color: #fc3f3f;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    margin: 20px; 
+    
+}
+
+nav a {
+    color: #545454;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5e0e;
+}
+
+
+/*Styles*/
+
+h1 {
+    color: #545454;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+
+/*Mission Statement*/
+
+.mission-statement {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    background-color: rgb(162, 214, 205, .5);
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.mission-item {
+    width: 80%;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    
+}
+
+.mission-container h3 {
+    font-size: 1.5em;
+    line-height: 40px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ 
+/* @media screen and (max-width: 480px)  */
+
+ /* About us */
+
+ .about-us {
+     width: 100%;
+ }
+
+ .about-us p {
+     width: 40%;
+     margin: auto;
+     text-align: center;
+     font-family: monospace;
+     font-size: 1.2em;
+     color: #008575;
+     line-height: 25px;
+     word-spacing: 2px;
+ }
+
+ .about-us h2 {
+     margin: auto;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+ @media all and (max-width: 400px) {
+     .about-us p {
+         width: 80%;
+     }
+ }
+
+
+.button {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    background-color: rgb(162, 214, 205, .5);
+    text-align: center;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 10px 20px 10px 20px;
+    border: 5px solid whitesmoke;
+    cursor: pointer;
+  
+}
+
+.button:hover {
+    color: #ff5e0e;
+    border: 5px solid rgb(0, 80, 71);
+}
+
+
+
+/*Products*/
+
+#best-sellers {
+    color: #545454;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.product-container img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.product-container {
+    width: 75%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+
+.product-container h2 {
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.product-item {
+    position: relative;
+}
+
+.product-item p {
+    position: absolute;
+    bottom: 100px;
+    left: 5px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    width: 225px;
+    height: auto;
+    display: none;
+
+}
+
+.product-item:hover img {
+   opacity: 0.5;
+   cursor: pointer;
+}
+
+.product-item:hover p {
+    display: inline;
+    cursor: pointer;
+}
+
+.product-item:hover h2 {
+    color: #ff5e0e;
+    font-weight: bold;
+}
+
+
+/*Meet the Team*/
+
+.team-section {
+    width: 100%;
+    background-color: rgb(162, 214, 205, .5);
+}
+
+.team-section h2 {
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    padding-top: 20px;
+    
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.team-member {
+    margin: auto;
+}
+
+.team-member img:hover {
+ width: 250px;
+ cursor: pointer;
+}
+
+.team-container img {
+    width: 200px;
+    height: auto;
+    border: 10px solid rgb(243, 243, 243);
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.team-container h2, h4 {
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: 100px 0 0;
+    background-color: rgb(0, 80, 71);
+}
+
+.contact-section {
+    font-family: monospace;
+    width: 100%;
+    margin-bottom: 45px;
+    padding: 5px;
+    font-size: 1.5em;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.contact-item {
+    flex: 1 1 40%;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.contact-section .material-icons-outlined {
+    padding-right: 5px;
+}
+
+.contact-item:hover {
+    color: #ff5e0e;
+    cursor: pointer;
+}
+
+.fin {
+    width: 85%;
+    margin: auto;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: whitesmoke;
+    text-transform: capitalize;
+    
+}
