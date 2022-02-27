@@ -101,10 +101,12 @@ h1 {
      margin-bottom: 10px;
  }
 
- @media all and (max-width: 400px) {
+ @media all and (max-width: 415px) {
      .about-us p {
          width: 80%;
+         color: white;
      }
+
  }
 
 
@@ -136,13 +138,13 @@ h1 {
 
 /*Products*/
 
-#best-sellers {
-    color: #545454;
+.best-sellers {
+    color: #ff5e0e;;
     font-family: 'Comfortaa', cursive;
     letter-spacing: 2px;
     text-align: center;
-    position: relative;
-    top: 100px;
+    margin-top: 5%;
+    
 }
 
 .product-container img {
@@ -154,7 +156,6 @@ h1 {
 .product-container {
     width: 75%;
     margin: auto;
-    margin-top: 10%;
     margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
